@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background: #f28ab2;
+}
+
+.container {
+  width: 30vw;
+  max-width: 900px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.container h2 {
+  text-align: center;
+  margin-top: 0.2rem;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+.container h4 {
+  color: #102a42;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.container h5 {
+  color: #617d98;
+  font-weight: 100;
+}
+
+.container h6 {
+  padding-top: 0.5rem;
+  color: lightblue;
+}
+
+.container h6:hover {
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  margin: 2rem 1rem;
+}
+
+.cardAgain {
+  padding-left: 1rem;
+  padding-top: 0.45rem;
+}
+
+img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.btn {
+  background: #e07fa4;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-color: transparent;
+  width: 20vw;
+  font-size: 1rem;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  border-radius: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.btn:hover {
+  background: #e75480;
+  color: whitesmoke;
+}
